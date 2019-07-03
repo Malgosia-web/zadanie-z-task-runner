@@ -16,9 +16,9 @@ body {
 .navbar-brand {
     padding-left: 100px;
     padding-top: 50px;
-    color: yellow;
-    font-size: 20px;
-    font-style: italic;
+    color: #EAB543;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
 }
 .splash {
     height: 60vh;
@@ -29,8 +29,9 @@ body {
 .splash-text {
     text-align: center;
     color: white;
+    align-items: center;
 }
-.button a {
+.button {
   display: inline-block;
   width: 160px;
   margin: 24px auto 0 auto;
@@ -38,12 +39,16 @@ body {
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
-  text-decoration: none;
   cursor: pointer;
   border-width: 2px;
+  border-color: #EAB543;
   border-style: solid;
-  background-position: 100% 0;
-  background-size: 300%;
+  background-color: #EAB543;
+  justify-content: center;
+}
+.button a {
+  text-decoration: none;
+  color: white;
 }
 .services h1, h4 {
   text-align: center;
