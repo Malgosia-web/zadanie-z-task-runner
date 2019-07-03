@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+.navbar-nav {
+  left: 50%;
+}
+
+.navbar-nav li {
+  padding: 10px;
+  display: inline-block;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+
+.navbar-brand {
+  padding-left: 100px;
+  padding-top: 50px;
+  color: yellow;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.splash {
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+.splash-text {
+  text-align: center;
+  color: white;
+}
+
+.button a {
+  display: inline-block;
+  width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.services h1, h4 {
+  text-align: center;
+}
+
+.services i {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.portfolio {
+  background: #bdc3c7;
+}
+
+.card {
+  padding-bottom: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.info li {
+  height: 16px;
+  width: 16px;
+  list-style: none;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.info i {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
