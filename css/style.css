@@ -26,7 +26,6 @@ body {
 }
 
 .splash {
-  height: 60vh;
   width: 100%;
   background-image: url("https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
@@ -39,10 +38,18 @@ body {
       align-items: center;
 }
 
+.page-subtitle {
+  font-size: 50px;
+}
+
+.page-title {
+  font-style: italic;
+}
+
 .button {
   display: inline-block;
   width: 160px;
-  margin: 24px auto 0 auto;
+  margin: 24px auto 24px auto;
   padding: 16px;
   border-radius: 5px;
   font-size: 16px;
@@ -65,9 +72,13 @@ body {
   text-align: center;
 }
 
+.services h1 {
+  font-size: 40px;
+}
+
 .services i {
-  -ms-flex-align: center;
-      align-items: center;
+  font-size: 30px;
+  color: #EAB543;
 }
 
 .portfolio {
