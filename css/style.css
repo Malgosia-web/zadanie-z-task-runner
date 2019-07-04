@@ -3,7 +3,12 @@ body {
 }
 
 .navbar-nav {
-  left: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .navbar-nav li {
@@ -22,7 +27,7 @@ body {
   padding-top: 50px;
   color: #EAB543;
   font-size: 30px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 
 .splash {
@@ -36,10 +41,12 @@ body {
   color: white;
   -ms-flex-align: center;
       align-items: center;
+  font-family: "Literata", serif;
 }
 
 .page-subtitle {
   font-size: 50px;
+  margin-bottom: 0;
 }
 
 .page-title {
@@ -52,7 +59,7 @@ body {
   margin: 24px auto 24px auto;
   padding: 16px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   cursor: pointer;
   border-width: 2px;
@@ -68,31 +75,45 @@ body {
   color: white;
 }
 
-.services h1, h4 {
+.services h1, p {
   text-align: center;
+  font-style: italic;
 }
 
 .services h1 {
   font-size: 40px;
+  font-family: "Literata", serif;
+  margin-bottom: 0;
+}
+
+.services h2 {
+  text-align: center;
 }
 
 .services i {
   font-size: 30px;
   color: #EAB543;
+  padding-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 
 .portfolio {
   background: #bdc3c7;
 }
 
-.portfolio h1, h4 {
+.portfolio h1, p {
   text-align: center;
+  font-style: italic;
 }
 
 .portfolio h1 {
   font-size: 40px;
   padding-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  font-family: "Literata", serif;
 }
 
 .card {
@@ -103,19 +124,38 @@ body {
   text-align: center;
 }
 
+.card h4 {
+  font-family: "Literata", serif;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
 .card img {
   width: 100%;
 }
 
 .info li {
-  height: 16px;
-  width: 16px;
+  background: black;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
   list-style: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .info i {
-  color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-info p {
+  text-align: center;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
